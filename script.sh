@@ -11,7 +11,7 @@ cd "$APP_DIR" || exit
 echo "Cambiando al directorio de la aplicación: $APP_DIR"
 
 # Obtener últimos cambios del repositorio
-git pull origin main
+sudo git pull origin main
 echo "Código actualizado desde el repositorio."
 
 # Iniciar NGINX
