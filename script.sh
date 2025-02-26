@@ -1,1 +1,6 @@
-ngrok config add-authtoken 2tayPKxF4NPFoulHWIietWVuKMB_4QR3XFj5ag6KMj6hVZW6X
+RETURN_ONE=".."
+APP_DIR="/ruta/a/tu/aplicacion"
+cd "$RETURN_ONE" || exit
+cd "$APP_DIR" || exit
+
+echo "Cambiando al directorio de la aplicación: $APP_DIR"
