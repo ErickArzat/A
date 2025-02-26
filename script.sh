@@ -1,5 +1,5 @@
 RETURN_ONE=".."
-APP_DIR="/ruta/a/tu/aplicacion"
+APP_DIR="/var/www/html"
 cd "$RETURN_ONE" || exit
 cd "$APP_DIR" || exit
 
